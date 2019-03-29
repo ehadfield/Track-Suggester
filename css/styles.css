@@ -2,31 +2,50 @@
   width: 50%;
   text-align: center;
   display: none;
+  background-color: lightgray;
+  opacity: 0.8;
+  padding: 20px;
+  text-shadow: 2px;
 }
 #python {
   width: 50%;
   text-align: center;
   display: none;
+  background-color: lightgray;
+  opacity: 0.8;
+  padding: 20px;
 }
 #ruby {
   width: 50%;
   text-align: center;
   display: none;
+  background-color: lightgray;
+  opacity: 0.8;
+  padding: 20px;
 }
 #php {
   width: 50%;
   text-align: center;
   display: none;
+  background-color: lightgray;
+  opacity: 0.8;
+  padding: 20px;
 }
 #other {
   width: 50%;
   text-align: center;
   display: none;
+  background-color: lightgray;
+  opacity: 0.8;
+  padding: 20px;
 }
 #csharp {
   width: 50%;
   text-align: center;
   display: none;
+  background-color: lightgray;
+  opacity: 0.8;
+  padding: 20px;
 }
 #btn {
   width: 50%;
@@ -43,9 +62,17 @@ button {
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
+  margin-bottom: 20px;
 }
-
 .intro {
   text-align: center;
   padding: 75px;
+}
+.col-centered {
+  float: none;
+  margin: auto;
+}
+.form-centered{
+  float: none;
+  margin: auto;
 }
