@@ -1,16 +1,20 @@
-.javascript {
+#javascript {
   width: 50%;
   text-align: center;
+  display: none;
 }
-.python {
+#python {
   width: 50%;
   text-align: center;
+  display: none;
 }
-.ruby {
+#ruby {
   width: 50%;
   text-align: center;
+  display: none;
 }
-.php {
+#php {
   width: 50%;
   text-align: center;
+  display: none;
 }
