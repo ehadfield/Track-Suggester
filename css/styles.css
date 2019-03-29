@@ -5,6 +5,7 @@
   background-color: lightgray;
   opacity: 0.8;
   padding: 20px;
+  margin-right: 100px;
   text-shadow: 2px;
 }
 #python {
@@ -50,7 +51,7 @@
 #btn {
   width: 50%;
   text-align: center;
-display: none;
+  display: none;
 }
 button {
   background-color: #007bff;
@@ -67,12 +68,16 @@ button {
 .intro {
   text-align: center;
   padding: 75px;
+  text-shadow: 1px 1px white;
+  background-color: lightgray;
+  opacity: 0.8;
 }
 .col-centered {
   float: none;
   margin: auto;
 }
 .form-centered{
+  padding-top: 20px;
   float: none;
   margin: auto;
 }

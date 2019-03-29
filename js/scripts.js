@@ -41,6 +41,8 @@ $(document).ready(function(){
       $("#csharp").show();
       $("#whatlanguage").hide();
       $("#btn").show();
+    }else{
+      alert("You need to fill ALL FIELDS");
     }
     event.preventDefault();
   });
