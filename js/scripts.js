@@ -15,25 +15,32 @@ $(document).ready(function(){
       $("#ruby").hide();
       $("#php").hide();
       $("#whatlanguage").hide();
+      $("#btn").show();
     }else if(question1 === "2" && question3 === "8"){
       $("#javascript").show();
       $("#csharp").show();
       $("#whatlanguage").hide();
+      $("#btn").show();
     }else if(question1 === "2"){
       $("#javascript").show();
       $("#whatlanguage").hide();
+      $("#btn").show();
     }else if(question2 === "4"){
       $("#php").show();
       $("#whatlanguage").hide();
+      $("#btn").show();
     }else if(question3 === "7"){
       $("#ruby").show();
       $("#whatlanguage").hide();
+      $("#btn").show();
     }else if(question4 === "11"){
       $("#python").show();
       $("#whatlanguage").hide();
+      $("#btn").show();
     }else if(question3 === "8"){
       $("#csharp").show();
       $("#whatlanguage").hide();
+      $("#btn").show();
     }
     event.preventDefault();
   });

@@ -28,3 +28,24 @@
   text-align: center;
   display: none;
 }
+#btn {
+  width: 50%;
+  text-align: center;
+display: none;
+}
+button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.intro {
+  text-align: center;
+  padding: 75px;
+}
