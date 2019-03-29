@@ -46,7 +46,7 @@ $(document).ready(function(){
       $("#csharp").show();
       $("#whatlanguage").hide();
       $("#btn").show();
-    }else {
+    }else{
       alert("You need to fill ALL FIELDS");
     }
     event.preventDefault();
