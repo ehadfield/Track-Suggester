@@ -21,6 +21,11 @@ $(document).ready(function(){
       $("#csharp").show();
       $("#whatlanguage").hide();
       $("#btn").show();
+    }else if(question1 === "1" && question2 === "4"){
+      $("#javascript").show();
+      $("#ruby").show();
+      $("#whatlanguage").hide();
+      $("#btn").show();
     }else if(question1 === "2"){
       $("#javascript").show();
       $("#whatlanguage").hide();
@@ -41,7 +46,7 @@ $(document).ready(function(){
       $("#csharp").show();
       $("#whatlanguage").hide();
       $("#btn").show();
-    }else{
+    }else {
       alert("You need to fill ALL FIELDS");
     }
     event.preventDefault();
