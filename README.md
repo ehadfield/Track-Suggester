@@ -14,7 +14,10 @@ _A simple example of using jquery "if" statements to return various answers base
 
 ## _Known Bugs_
 _No known bugs at this time..._
+_Reload Bug 3/29/19: Reload button reloads from cache and not server on Firefox - this will populate form with last selection rather than clearing them.
+_Alert Bug 3/29/19: Some users have reported that alert() runs regardless of filled out form. Have not been able to reproduce. Need more info.
 ### _HOWEVER_ _cat people are going to have a bad time (wink, wink)_
+
 
 ## _Support & Contact_
 _If you'd like to get in contact with the creator, you can email them here: hadfield.evan@gmail.com_
